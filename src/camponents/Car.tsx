@@ -18,7 +18,6 @@ export const Car = (props: CarType) => {
                                 <td>{car.model}</td>
                             </tr>
                         </>
-
                     )
                 })
             }
