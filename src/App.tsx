@@ -7,6 +7,7 @@ import {Car} from "./camponents/Car";
 import {Buttons} from "./camponents/Buttons";
 import {Button} from "./camponents/Button";
 import {TestHook} from "./camponents/TestHook";
+import {Money} from "./camponents/Money";
 
 const topCars = [
     {manufacturer: 'BMW', model: 'm5cs'},
@@ -39,6 +40,8 @@ function App() {
             <Button name={"MyYouTubeChanel-3 "} callBack={Button3Foo}/>
             <hr/>
             <TestHook/>
+            <hr/>
+            <Money/>
         </div>
     );
 }
