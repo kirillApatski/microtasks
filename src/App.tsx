@@ -8,6 +8,7 @@ import {Buttons} from "./camponents/Buttons";
 import {Button} from "./camponents/Button";
 import {TestHook} from "./camponents/TestHook";
 import {Money} from "./camponents/Money";
+import {InputNew} from "./camponents/InputNew";
 
 const topCars = [
     {manufacturer: 'BMW', model: 'm5cs'},
@@ -42,6 +43,8 @@ function App() {
             <TestHook/>
             <hr/>
             <Money/>
+            <hr/>
+            <InputNew/>
         </div>
     );
 }
